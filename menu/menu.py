@@ -71,7 +71,12 @@ class MainMenu:
         settings.add.label(
             title=f"{phrases_menu.RECORD_TEXT} {self.record()}"
         )
-
+        
+        settings.add.dropselect(
+            title=phrases_menu.LEVEL_TEXT, items=phrases_menu.LEVEL,
+            toggleswitch_id="level", default=True
+        )
+        
         settings.add.button(title=phrases_menu.commit, action=save_settings_callback,
                             font_color=colors.WHITE, background_color=colors.GREEN)
 
