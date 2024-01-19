@@ -14,6 +14,12 @@ SKINS = [("First skin", "skin1"),
 
 WALLPAPERS = [("First wallpaper", "wallpaper1"),
               ("Second wallpaper", "wallpaper2"), ]
+LEVEL = [
+         ("first level", "first level"),
+         ("second level", "second level"),
+         ("third level", "third level"),
+]
+LEVEL_TEXT = """Уровень"""
 
 commit = """Сохранить изменения"""
 back = """Выйти в главное меню"""
